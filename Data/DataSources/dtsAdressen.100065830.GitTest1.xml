@@ -1,0 +1,768 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?format revision="26" partner="100065830" package="GitTest1"?>
+<Metadata>
+  <DataSources>
+    <DataSource>
+      <DateChanged>14.01.2021 13:33:06,8174</DateChanged>
+      <DateCreated>14.01.2021 09:15:11,5716</DateCreated>
+      <Fields>
+        <DataSourceField>
+          <CalculationDecimalPlaces>0</CalculationDecimalPlaces>
+          <DataType Info="Boolean">1</DataType>
+          <DecimalPlaces>0</DecimalPlaces>
+          <Name>A1Besteuerung</Name>
+          <Order>
+            <OrderField>
+              <Direction Info="Ascending">1</Direction>
+              <Name>A1Besteuerung</Name>
+            </OrderField>
+          </Order>
+          <OrderDesc>
+            <OrderField>
+              <Direction Info="Descending">2</Direction>
+              <Name>A1Besteuerung</Name>
+            </OrderField>
+          </OrderDesc>
+          <Precedence>1</Precedence>
+          <SqlQuery>KHKAdressen.A1Besteuerung</SqlQuery>
+          <Title>A1Besteuerung</Title>
+          <TrafficLightParameter1DecimalPlaces>0</TrafficLightParameter1DecimalPlaces>
+          <TrafficLightParameter2DecimalPlaces>0</TrafficLightParameter2DecimalPlaces>
+        </DataSourceField>
+        <DataSourceField>
+          <CalculationDecimalPlaces>0</CalculationDecimalPlaces>
+          <DataType Info="String">5</DataType>
+          <DecimalPlaces>0</DecimalPlaces>
+          <Name>Abladestelle</Name>
+          <Order>
+            <OrderField>
+              <Direction Info="Ascending">1</Direction>
+              <Name>Abladestelle</Name>
+            </OrderField>
+          </Order>
+          <OrderDesc>
+            <OrderField>
+              <Direction Info="Descending">2</Direction>
+              <Name>Abladestelle</Name>
+            </OrderField>
+          </OrderDesc>
+          <Precedence>2</Precedence>
+          <SqlQuery>KHKAdressen.Abladestelle</SqlQuery>
+          <Title>Abladestelle</Title>
+          <TrafficLightParameter1DecimalPlaces>0</TrafficLightParameter1DecimalPlaces>
+          <TrafficLightParameter2DecimalPlaces>0</TrafficLightParameter2DecimalPlaces>
+        </DataSourceField>
+        <DataSourceField>
+          <CalculationDecimalPlaces>0</CalculationDecimalPlaces>
+          <DataType Info="Integer">2</DataType>
+          <DecimalPlaces>0</DecimalPlaces>
+          <Name>Adresse</Name>
+          <Order>
+            <OrderField>
+              <Direction Info="Ascending">1</Direction>
+              <Name>Adresse</Name>
+            </OrderField>
+          </Order>
+          <OrderDesc>
+            <OrderField>
+              <Direction Info="Descending">2</Direction>
+              <Name>Adresse</Name>
+            </OrderField>
+          </OrderDesc>
+          <Precedence>3</Precedence>
+          <SqlQuery>KHKAdressen.Adresse</SqlQuery>
+          <Title>Adresse</Title>
+          <TrafficLightParameter1DecimalPlaces>0</TrafficLightParameter1DecimalPlaces>
+          <TrafficLightParameter2DecimalPlaces>0</TrafficLightParameter2DecimalPlaces>
+        </DataSourceField>
+        <DataSourceField>
+          <CalculationDecimalPlaces>0</CalculationDecimalPlaces>
+          <DataType Info="Boolean">1</DataType>
+          <DecimalPlaces>0</DecimalPlaces>
+          <Name>Aktiv</Name>
+          <Order>
+            <OrderField>
+              <Direction Info="Ascending">1</Direction>
+              <Name>Aktiv</Name>
+            </OrderField>
+          </Order>
+          <OrderDesc>
+            <OrderField>
+              <Direction Info="Descending">2</Direction>
+              <Name>Aktiv</Name>
+            </OrderField>
+          </OrderDesc>
+          <Precedence>4</Precedence>
+          <SqlQuery>KHKAdressen.Aktiv</SqlQuery>
+          <Title>Aktiv</Title>
+          <TrafficLightParameter1DecimalPlaces>0</TrafficLightParameter1DecimalPlaces>
+          <TrafficLightParameter2DecimalPlaces>0</TrafficLightParameter2DecimalPlaces>
+        </DataSourceField>
+        <DataSourceField>
+          <CalculationDecimalPlaces>0</CalculationDecimalPlaces>
+          <DataType Info="String">5</DataType>
+          <DecimalPlaces>0</DecimalPlaces>
+          <Name>Anrede</Name>
+          <Order>
+            <OrderField>
+              <Direction Info="Ascending">1</Direction>
+              <Name>Anrede</Name>
+            </OrderField>
+          </Order>
+          <OrderDesc>
+            <OrderField>
+              <Direction Info="Descending">2</Direction>
+              <Name>Anrede</Name>
+            </OrderField>
+          </OrderDesc>
+          <Precedence>5</Precedence>
+          <SqlQuery>KHKAdressen.Anrede</SqlQuery>
+          <Title>Anrede</Title>
+          <TrafficLightParameter1DecimalPlaces>0</TrafficLightParameter1DecimalPlaces>
+          <TrafficLightParameter2DecimalPlaces>0</TrafficLightParameter2DecimalPlaces>
+        </DataSourceField>
+        <DataSourceField>
+          <CalculationDecimalPlaces>0</CalculationDecimalPlaces>
+          <DataType Info="String">5</DataType>
+          <DecimalPlaces>0</DecimalPlaces>
+          <Name>Ansprache</Name>
+          <Order>
+            <OrderField>
+              <Direction Info="Ascending">1</Direction>
+              <Name>Ansprache</Name>
+            </OrderField>
+          </Order>
+          <OrderDesc>
+            <OrderField>
+              <Direction Info="Descending">2</Direction>
+              <Name>Ansprache</Name>
+            </OrderField>
+          </OrderDesc>
+          <Precedence>6</Precedence>
+          <SqlQuery>KHKAdressen.Ansprache</SqlQuery>
+          <Title>Ansprache</Title>
+          <TrafficLightParameter1DecimalPlaces>0</TrafficLightParameter1DecimalPlaces>
+          <TrafficLightParameter2DecimalPlaces>0</TrafficLightParameter2DecimalPlaces>
+        </DataSourceField>
+        <DataSourceField>
+          <CalculationDecimalPlaces>0</CalculationDecimalPlaces>
+          <DataType Info="String">5</DataType>
+          <DecimalPlaces>0</DecimalPlaces>
+          <Name>Auswertungskennzeichen</Name>
+          <Order>
+            <OrderField>
+              <Direction Info="Ascending">1</Direction>
+              <Name>Auswertungskennzeichen</Name>
+            </OrderField>
+          </Order>
+          <OrderDesc>
+            <OrderField>
+              <Direction Info="Descending">2</Direction>
+              <Name>Auswertungskennzeichen</Name>
+            </OrderField>
+          </OrderDesc>
+          <Precedence>7</Precedence>
+          <SqlQuery>KHKAdressen.Auswertungskennzeichen</SqlQuery>
+          <Title>Auswertungskennzeichen</Title>
+          <TrafficLightParameter1DecimalPlaces>0</TrafficLightParameter1DecimalPlaces>
+          <TrafficLightParameter2DecimalPlaces>0</TrafficLightParameter2DecimalPlaces>
+        </DataSourceField>
+        <DataSourceField>
+          <CalculationDecimalPlaces>0</CalculationDecimalPlaces>
+          <DataType Info="String">5</DataType>
+          <DecimalPlaces>0</DecimalPlaces>
+          <Name>EMail</Name>
+          <Order>
+            <OrderField>
+              <Direction Info="Ascending">1</Direction>
+              <Name>EMail</Name>
+            </OrderField>
+          </Order>
+          <OrderDesc>
+            <OrderField>
+              <Direction Info="Descending">2</Direction>
+              <Name>EMail</Name>
+            </OrderField>
+          </OrderDesc>
+          <Precedence>8</Precedence>
+          <SqlQuery>KHKAdressen.EMail</SqlQuery>
+          <Title>EMail</Title>
+          <TrafficLightParameter1DecimalPlaces>0</TrafficLightParameter1DecimalPlaces>
+          <TrafficLightParameter2DecimalPlaces>0</TrafficLightParameter2DecimalPlaces>
+        </DataSourceField>
+        <DataSourceField>
+          <CalculationDecimalPlaces>0</CalculationDecimalPlaces>
+          <DataType Info="Date">4</DataType>
+          <DecimalPlaces>0</DecimalPlaces>
+          <Name>Erstkontakt</Name>
+          <Order>
+            <OrderField>
+              <Direction Info="Ascending">1</Direction>
+              <Name>Erstkontakt</Name>
+            </OrderField>
+          </Order>
+          <OrderDesc>
+            <OrderField>
+              <Direction Info="Descending">2</Direction>
+              <Name>Erstkontakt</Name>
+            </OrderField>
+          </OrderDesc>
+          <Precedence>9</Precedence>
+          <SqlQuery>KHKAdressen.Erstkontakt</SqlQuery>
+          <Title>Erstkontakt</Title>
+          <TrafficLightParameter1DecimalPlaces>0</TrafficLightParameter1DecimalPlaces>
+          <TrafficLightParameter2DecimalPlaces>0</TrafficLightParameter2DecimalPlaces>
+        </DataSourceField>
+        <DataSourceField>
+          <CalculationDecimalPlaces>0</CalculationDecimalPlaces>
+          <DataType Info="String">5</DataType>
+          <DecimalPlaces>0</DecimalPlaces>
+          <Name>Gruppe</Name>
+          <Order>
+            <OrderField>
+              <Direction Info="Ascending">1</Direction>
+              <Name>Gruppe</Name>
+            </OrderField>
+          </Order>
+          <OrderDesc>
+            <OrderField>
+              <Direction Info="Descending">2</Direction>
+              <Name>Gruppe</Name>
+            </OrderField>
+          </OrderDesc>
+          <Precedence>10</Precedence>
+          <SqlQuery>KHKAdressen.Gruppe</SqlQuery>
+          <Title>Gruppe</Title>
+          <TrafficLightParameter1DecimalPlaces>0</TrafficLightParameter1DecimalPlaces>
+          <TrafficLightParameter2DecimalPlaces>0</TrafficLightParameter2DecimalPlaces>
+        </DataSourceField>
+        <DataSourceField>
+          <CalculationDecimalPlaces>0</CalculationDecimalPlaces>
+          <DataType Info="String">5</DataType>
+          <DecimalPlaces>0</DecimalPlaces>
+          <Name>Homepage</Name>
+          <Order>
+            <OrderField>
+              <Direction Info="Ascending">1</Direction>
+              <Name>Homepage</Name>
+            </OrderField>
+          </Order>
+          <OrderDesc>
+            <OrderField>
+              <Direction Info="Descending">2</Direction>
+              <Name>Homepage</Name>
+            </OrderField>
+          </OrderDesc>
+          <Precedence>11</Precedence>
+          <SqlQuery>KHKAdressen.Homepage</SqlQuery>
+          <Title>Homepage</Title>
+          <TrafficLightParameter1DecimalPlaces>0</TrafficLightParameter1DecimalPlaces>
+          <TrafficLightParameter2DecimalPlaces>0</TrafficLightParameter2DecimalPlaces>
+        </DataSourceField>
+        <DataSourceField>
+          <CalculationDecimalPlaces>0</CalculationDecimalPlaces>
+          <DataType Info="Integer">2</DataType>
+          <DecimalPlaces>0</DecimalPlaces>
+          <Name>Kategorie</Name>
+          <Order>
+            <OrderField>
+              <Direction Info="Ascending">1</Direction>
+              <Name>Kategorie</Name>
+            </OrderField>
+          </Order>
+          <OrderDesc>
+            <OrderField>
+              <Direction Info="Descending">2</Direction>
+              <Name>Kategorie</Name>
+            </OrderField>
+          </OrderDesc>
+          <Precedence>12</Precedence>
+          <SqlQuery>KHKAdressen.Kategorie</SqlQuery>
+          <Title>Kategorie</Title>
+          <TrafficLightParameter1DecimalPlaces>0</TrafficLightParameter1DecimalPlaces>
+          <TrafficLightParameter2DecimalPlaces>0</TrafficLightParameter2DecimalPlaces>
+        </DataSourceField>
+        <DataSourceField>
+          <CalculationDecimalPlaces>0</CalculationDecimalPlaces>
+          <DataType Info="String">5</DataType>
+          <DecimalPlaces>0</DecimalPlaces>
+          <Name>LieferLand</Name>
+          <Order>
+            <OrderField>
+              <Direction Info="Ascending">1</Direction>
+              <Name>LieferLand</Name>
+            </OrderField>
+          </Order>
+          <OrderDesc>
+            <OrderField>
+              <Direction Info="Descending">2</Direction>
+              <Name>LieferLand</Name>
+            </OrderField>
+          </OrderDesc>
+          <Precedence>13</Precedence>
+          <SqlQuery>KHKAdressen.LieferLand</SqlQuery>
+          <Title>LieferLand</Title>
+          <TrafficLightParameter1DecimalPlaces>0</TrafficLightParameter1DecimalPlaces>
+          <TrafficLightParameter2DecimalPlaces>0</TrafficLightParameter2DecimalPlaces>
+        </DataSourceField>
+        <DataSourceField>
+          <CalculationDecimalPlaces>0</CalculationDecimalPlaces>
+          <DataType Info="String">5</DataType>
+          <DecimalPlaces>0</DecimalPlaces>
+          <Name>LieferOrt</Name>
+          <Order>
+            <OrderField>
+              <Direction Info="Ascending">1</Direction>
+              <Name>LieferOrt</Name>
+            </OrderField>
+          </Order>
+          <OrderDesc>
+            <OrderField>
+              <Direction Info="Descending">2</Direction>
+              <Name>LieferOrt</Name>
+            </OrderField>
+          </OrderDesc>
+          <Precedence>14</Precedence>
+          <SqlQuery>KHKAdressen.LieferOrt</SqlQuery>
+          <Title>LieferOrt</Title>
+          <TrafficLightParameter1DecimalPlaces>0</TrafficLightParameter1DecimalPlaces>
+          <TrafficLightParameter2DecimalPlaces>0</TrafficLightParameter2DecimalPlaces>
+        </DataSourceField>
+        <DataSourceField>
+          <CalculationDecimalPlaces>0</CalculationDecimalPlaces>
+          <DataType Info="String">5</DataType>
+          <DecimalPlaces>0</DecimalPlaces>
+          <Name>LieferPLZ</Name>
+          <Order>
+            <OrderField>
+              <Direction Info="Ascending">1</Direction>
+              <Name>LieferPLZ</Name>
+            </OrderField>
+          </Order>
+          <OrderDesc>
+            <OrderField>
+              <Direction Info="Descending">2</Direction>
+              <Name>LieferPLZ</Name>
+            </OrderField>
+          </OrderDesc>
+          <Precedence>15</Precedence>
+          <SqlQuery>KHKAdressen.LieferPLZ</SqlQuery>
+          <Title>LieferPLZ</Title>
+          <TrafficLightParameter1DecimalPlaces>0</TrafficLightParameter1DecimalPlaces>
+          <TrafficLightParameter2DecimalPlaces>0</TrafficLightParameter2DecimalPlaces>
+        </DataSourceField>
+        <DataSourceField>
+          <CalculationDecimalPlaces>0</CalculationDecimalPlaces>
+          <DataType Info="String">5</DataType>
+          <DecimalPlaces>0</DecimalPlaces>
+          <Name>LieferStrasse</Name>
+          <Order>
+            <OrderField>
+              <Direction Info="Ascending">1</Direction>
+              <Name>LieferStrasse</Name>
+            </OrderField>
+          </Order>
+          <OrderDesc>
+            <OrderField>
+              <Direction Info="Descending">2</Direction>
+              <Name>LieferStrasse</Name>
+            </OrderField>
+          </OrderDesc>
+          <Precedence>16</Precedence>
+          <SqlQuery>KHKAdressen.LieferStrasse</SqlQuery>
+          <Title>LieferStrasse</Title>
+          <TrafficLightParameter1DecimalPlaces>0</TrafficLightParameter1DecimalPlaces>
+          <TrafficLightParameter2DecimalPlaces>0</TrafficLightParameter2DecimalPlaces>
+        </DataSourceField>
+        <DataSourceField>
+          <CalculationDecimalPlaces>0</CalculationDecimalPlaces>
+          <DataType Info="String">5</DataType>
+          <DecimalPlaces>0</DecimalPlaces>
+          <Name>LieferZusatz</Name>
+          <Order>
+            <OrderField>
+              <Direction Info="Ascending">1</Direction>
+              <Name>LieferZusatz</Name>
+            </OrderField>
+          </Order>
+          <OrderDesc>
+            <OrderField>
+              <Direction Info="Descending">2</Direction>
+              <Name>LieferZusatz</Name>
+            </OrderField>
+          </OrderDesc>
+          <Precedence>17</Precedence>
+          <SqlQuery>KHKAdressen.LieferZusatz</SqlQuery>
+          <Title>LieferZusatz</Title>
+          <TrafficLightParameter1DecimalPlaces>0</TrafficLightParameter1DecimalPlaces>
+          <TrafficLightParameter2DecimalPlaces>0</TrafficLightParameter2DecimalPlaces>
+        </DataSourceField>
+        <DataSourceField>
+          <CalculationDecimalPlaces>0</CalculationDecimalPlaces>
+          <DataType Info="String">5</DataType>
+          <DecimalPlaces>0</DecimalPlaces>
+          <Name>Matchcode</Name>
+          <Order>
+            <OrderField>
+              <Direction Info="Ascending">1</Direction>
+              <Name>Matchcode</Name>
+            </OrderField>
+          </Order>
+          <OrderDesc>
+            <OrderField>
+              <Direction Info="Descending">2</Direction>
+              <Name>Matchcode</Name>
+            </OrderField>
+          </OrderDesc>
+          <Precedence>18</Precedence>
+          <SqlQuery>KHKAdressen.Matchcode</SqlQuery>
+          <Title>Matchcode</Title>
+          <TrafficLightParameter1DecimalPlaces>0</TrafficLightParameter1DecimalPlaces>
+          <TrafficLightParameter2DecimalPlaces>0</TrafficLightParameter2DecimalPlaces>
+        </DataSourceField>
+        <DataSourceField>
+          <CalculationDecimalPlaces>0</CalculationDecimalPlaces>
+          <DataType Info="String">5</DataType>
+          <DecimalPlaces>0</DecimalPlaces>
+          <Name>Memo</Name>
+          <Precedence>19</Precedence>
+          <SqlQuery>KHKAdressen.Memo</SqlQuery>
+          <Title>Memo</Title>
+          <TrafficLightParameter1DecimalPlaces>0</TrafficLightParameter1DecimalPlaces>
+          <TrafficLightParameter2DecimalPlaces>0</TrafficLightParameter2DecimalPlaces>
+        </DataSourceField>
+        <DataSourceField>
+          <CalculationDecimalPlaces>0</CalculationDecimalPlaces>
+          <DataType Info="String">5</DataType>
+          <DecimalPlaces>0</DecimalPlaces>
+          <Name>Mobilfunk</Name>
+          <Order>
+            <OrderField>
+              <Direction Info="Ascending">1</Direction>
+              <Name>Mobilfunk</Name>
+            </OrderField>
+          </Order>
+          <OrderDesc>
+            <OrderField>
+              <Direction Info="Descending">2</Direction>
+              <Name>Mobilfunk</Name>
+            </OrderField>
+          </OrderDesc>
+          <Precedence>20</Precedence>
+          <SqlQuery>KHKAdressen.Mobilfunk</SqlQuery>
+          <Title>Mobilfunk</Title>
+          <TrafficLightParameter1DecimalPlaces>0</TrafficLightParameter1DecimalPlaces>
+          <TrafficLightParameter2DecimalPlaces>0</TrafficLightParameter2DecimalPlaces>
+        </DataSourceField>
+        <DataSourceField>
+          <CalculationDecimalPlaces>0</CalculationDecimalPlaces>
+          <DataType Info="String">5</DataType>
+          <DecimalPlaces>0</DecimalPlaces>
+          <Name>Name1</Name>
+          <Order>
+            <OrderField>
+              <Direction Info="Ascending">1</Direction>
+              <Name>Name1</Name>
+            </OrderField>
+          </Order>
+          <OrderDesc>
+            <OrderField>
+              <Direction Info="Descending">2</Direction>
+              <Name>Name1</Name>
+            </OrderField>
+          </OrderDesc>
+          <Precedence>21</Precedence>
+          <SqlQuery>KHKAdressen.Name1</SqlQuery>
+          <Title>Name1</Title>
+          <TrafficLightParameter1DecimalPlaces>0</TrafficLightParameter1DecimalPlaces>
+          <TrafficLightParameter2DecimalPlaces>0</TrafficLightParameter2DecimalPlaces>
+        </DataSourceField>
+        <DataSourceField>
+          <CalculationDecimalPlaces>0</CalculationDecimalPlaces>
+          <DataType Info="String">5</DataType>
+          <DecimalPlaces>0</DecimalPlaces>
+          <Name>Name2</Name>
+          <Order>
+            <OrderField>
+              <Direction Info="Ascending">1</Direction>
+              <Name>Name2</Name>
+            </OrderField>
+          </Order>
+          <OrderDesc>
+            <OrderField>
+              <Direction Info="Descending">2</Direction>
+              <Name>Name2</Name>
+            </OrderField>
+          </OrderDesc>
+          <Precedence>22</Precedence>
+          <SqlQuery>KHKAdressen.Name2</SqlQuery>
+          <Title>Name2</Title>
+          <TrafficLightParameter1DecimalPlaces>0</TrafficLightParameter1DecimalPlaces>
+          <TrafficLightParameter2DecimalPlaces>0</TrafficLightParameter2DecimalPlaces>
+        </DataSourceField>
+        <DataSourceField>
+          <CalculationDecimalPlaces>0</CalculationDecimalPlaces>
+          <DataType Info="String">5</DataType>
+          <DecimalPlaces>0</DecimalPlaces>
+          <Name>PostLand</Name>
+          <Order>
+            <OrderField>
+              <Direction Info="Ascending">1</Direction>
+              <Name>PostLand</Name>
+            </OrderField>
+          </Order>
+          <OrderDesc>
+            <OrderField>
+              <Direction Info="Descending">2</Direction>
+              <Name>PostLand</Name>
+            </OrderField>
+          </OrderDesc>
+          <Precedence>23</Precedence>
+          <SqlQuery>KHKAdressen.PostLand</SqlQuery>
+          <Title>PostLand</Title>
+          <TrafficLightParameter1DecimalPlaces>0</TrafficLightParameter1DecimalPlaces>
+          <TrafficLightParameter2DecimalPlaces>0</TrafficLightParameter2DecimalPlaces>
+        </DataSourceField>
+        <DataSourceField>
+          <CalculationDecimalPlaces>0</CalculationDecimalPlaces>
+          <DataType Info="String">5</DataType>
+          <DecimalPlaces>0</DecimalPlaces>
+          <Name>PostOrt</Name>
+          <Order>
+            <OrderField>
+              <Direction Info="Ascending">1</Direction>
+              <Name>PostOrt</Name>
+            </OrderField>
+          </Order>
+          <OrderDesc>
+            <OrderField>
+              <Direction Info="Descending">2</Direction>
+              <Name>PostOrt</Name>
+            </OrderField>
+          </OrderDesc>
+          <Precedence>24</Precedence>
+          <SqlQuery>KHKAdressen.PostOrt</SqlQuery>
+          <Title>PostOrt</Title>
+          <TrafficLightParameter1DecimalPlaces>0</TrafficLightParameter1DecimalPlaces>
+          <TrafficLightParameter2DecimalPlaces>0</TrafficLightParameter2DecimalPlaces>
+        </DataSourceField>
+        <DataSourceField>
+          <CalculationDecimalPlaces>0</CalculationDecimalPlaces>
+          <DataType Info="String">5</DataType>
+          <DecimalPlaces>0</DecimalPlaces>
+          <Name>PostPLZ</Name>
+          <Order>
+            <OrderField>
+              <Direction Info="Ascending">1</Direction>
+              <Name>PostPLZ</Name>
+            </OrderField>
+          </Order>
+          <OrderDesc>
+            <OrderField>
+              <Direction Info="Descending">2</Direction>
+              <Name>PostPLZ</Name>
+            </OrderField>
+          </OrderDesc>
+          <Precedence>25</Precedence>
+          <SqlQuery>KHKAdressen.PostPLZ</SqlQuery>
+          <Title>PostPLZ</Title>
+          <TrafficLightParameter1DecimalPlaces>0</TrafficLightParameter1DecimalPlaces>
+          <TrafficLightParameter2DecimalPlaces>0</TrafficLightParameter2DecimalPlaces>
+        </DataSourceField>
+        <DataSourceField>
+          <CalculationDecimalPlaces>0</CalculationDecimalPlaces>
+          <DataType Info="String">5</DataType>
+          <DecimalPlaces>0</DecimalPlaces>
+          <Name>PostStrasse</Name>
+          <Order>
+            <OrderField>
+              <Direction Info="Ascending">1</Direction>
+              <Name>PostStrasse</Name>
+            </OrderField>
+          </Order>
+          <OrderDesc>
+            <OrderField>
+              <Direction Info="Descending">2</Direction>
+              <Name>PostStrasse</Name>
+            </OrderField>
+          </OrderDesc>
+          <Precedence>26</Precedence>
+          <SqlQuery>KHKAdressen.PostStrasse</SqlQuery>
+          <Title>PostStrasse</Title>
+          <TrafficLightParameter1DecimalPlaces>0</TrafficLightParameter1DecimalPlaces>
+          <TrafficLightParameter2DecimalPlaces>0</TrafficLightParameter2DecimalPlaces>
+        </DataSourceField>
+        <DataSourceField>
+          <CalculationDecimalPlaces>0</CalculationDecimalPlaces>
+          <DataType Info="String">5</DataType>
+          <DecimalPlaces>0</DecimalPlaces>
+          <Name>PostZusatz</Name>
+          <Order>
+            <OrderField>
+              <Direction Info="Ascending">1</Direction>
+              <Name>PostZusatz</Name>
+            </OrderField>
+          </Order>
+          <OrderDesc>
+            <OrderField>
+              <Direction Info="Descending">2</Direction>
+              <Name>PostZusatz</Name>
+            </OrderField>
+          </OrderDesc>
+          <Precedence>27</Precedence>
+          <SqlQuery>KHKAdressen.PostZusatz</SqlQuery>
+          <Title>PostZusatz</Title>
+          <TrafficLightParameter1DecimalPlaces>0</TrafficLightParameter1DecimalPlaces>
+          <TrafficLightParameter2DecimalPlaces>0</TrafficLightParameter2DecimalPlaces>
+        </DataSourceField>
+        <DataSourceField>
+          <CalculationDecimalPlaces>0</CalculationDecimalPlaces>
+          <DataType Info="String">5</DataType>
+          <DecimalPlaces>0</DecimalPlaces>
+          <Name>Referenz</Name>
+          <Order>
+            <OrderField>
+              <Direction Info="Ascending">1</Direction>
+              <Name>Referenz</Name>
+            </OrderField>
+          </Order>
+          <OrderDesc>
+            <OrderField>
+              <Direction Info="Descending">2</Direction>
+              <Name>Referenz</Name>
+            </OrderField>
+          </OrderDesc>
+          <Precedence>28</Precedence>
+          <SqlQuery>KHKAdressen.Referenz</SqlQuery>
+          <Title>Referenz</Title>
+          <TrafficLightParameter1DecimalPlaces>0</TrafficLightParameter1DecimalPlaces>
+          <TrafficLightParameter2DecimalPlaces>0</TrafficLightParameter2DecimalPlaces>
+        </DataSourceField>
+        <DataSourceField>
+          <CalculationDecimalPlaces>0</CalculationDecimalPlaces>
+          <DataType Info="Integer">2</DataType>
+          <DecimalPlaces>0</DecimalPlaces>
+          <Name>Sonderfunktion</Name>
+          <Order>
+            <OrderField>
+              <Direction Info="Ascending">1</Direction>
+              <Name>Sonderfunktion</Name>
+            </OrderField>
+          </Order>
+          <OrderDesc>
+            <OrderField>
+              <Direction Info="Descending">2</Direction>
+              <Name>Sonderfunktion</Name>
+            </OrderField>
+          </OrderDesc>
+          <Precedence>29</Precedence>
+          <SqlQuery>KHKAdressen.Sonderfunktion</SqlQuery>
+          <Title>Sonderfunktion</Title>
+          <TrafficLightParameter1DecimalPlaces>0</TrafficLightParameter1DecimalPlaces>
+          <TrafficLightParameter2DecimalPlaces>0</TrafficLightParameter2DecimalPlaces>
+        </DataSourceField>
+        <DataSourceField>
+          <CalculationDecimalPlaces>0</CalculationDecimalPlaces>
+          <DataType Info="String">5</DataType>
+          <DecimalPlaces>0</DecimalPlaces>
+          <Name>Sprache</Name>
+          <Order>
+            <OrderField>
+              <Direction Info="Ascending">1</Direction>
+              <Name>Sprache</Name>
+            </OrderField>
+          </Order>
+          <OrderDesc>
+            <OrderField>
+              <Direction Info="Descending">2</Direction>
+              <Name>Sprache</Name>
+            </OrderField>
+          </OrderDesc>
+          <Precedence>30</Precedence>
+          <SqlQuery>KHKAdressen.Sprache</SqlQuery>
+          <Title>Sprache</Title>
+          <TrafficLightParameter1DecimalPlaces>0</TrafficLightParameter1DecimalPlaces>
+          <TrafficLightParameter2DecimalPlaces>0</TrafficLightParameter2DecimalPlaces>
+        </DataSourceField>
+        <DataSourceField>
+          <CalculationDecimalPlaces>0</CalculationDecimalPlaces>
+          <DataType Info="String">5</DataType>
+          <DecimalPlaces>0</DecimalPlaces>
+          <Name>Telefax</Name>
+          <Order>
+            <OrderField>
+              <Direction Info="Ascending">1</Direction>
+              <Name>Telefax</Name>
+            </OrderField>
+          </Order>
+          <OrderDesc>
+            <OrderField>
+              <Direction Info="Descending">2</Direction>
+              <Name>Telefax</Name>
+            </OrderField>
+          </OrderDesc>
+          <Precedence>31</Precedence>
+          <SqlQuery>KHKAdressen.Telefax</SqlQuery>
+          <Title>Telefax</Title>
+          <TrafficLightParameter1DecimalPlaces>0</TrafficLightParameter1DecimalPlaces>
+          <TrafficLightParameter2DecimalPlaces>0</TrafficLightParameter2DecimalPlaces>
+        </DataSourceField>
+        <DataSourceField>
+          <CalculationDecimalPlaces>0</CalculationDecimalPlaces>
+          <DataType Info="String">5</DataType>
+          <DecimalPlaces>0</DecimalPlaces>
+          <Name>Telefon</Name>
+          <Order>
+            <OrderField>
+              <Direction Info="Ascending">1</Direction>
+              <Name>Telefon</Name>
+            </OrderField>
+          </Order>
+          <OrderDesc>
+            <OrderField>
+              <Direction Info="Descending">2</Direction>
+              <Name>Telefon</Name>
+            </OrderField>
+          </OrderDesc>
+          <Precedence>32</Precedence>
+          <SqlQuery>KHKAdressen.Telefon</SqlQuery>
+          <Title>Telefon</Title>
+          <TrafficLightParameter1DecimalPlaces>0</TrafficLightParameter1DecimalPlaces>
+          <TrafficLightParameter2DecimalPlaces>0</TrafficLightParameter2DecimalPlaces>
+        </DataSourceField>
+        <DataSourceField>
+          <CalculationDecimalPlaces>0</CalculationDecimalPlaces>
+          <DataType Info="String">5</DataType>
+          <DecimalPlaces>0</DecimalPlaces>
+          <Name>Werkschluessel</Name>
+          <Order>
+            <OrderField>
+              <Direction Info="Ascending">1</Direction>
+              <Name>Werkschluessel</Name>
+            </OrderField>
+          </Order>
+          <OrderDesc>
+            <OrderField>
+              <Direction Info="Descending">2</Direction>
+              <Name>Werkschluessel</Name>
+            </OrderField>
+          </OrderDesc>
+          <Precedence>33</Precedence>
+          <SqlQuery>KHKAdressen.Werkschluessel</SqlQuery>
+          <Title>Werkschluessel</Title>
+          <TrafficLightParameter1DecimalPlaces>0</TrafficLightParameter1DecimalPlaces>
+          <TrafficLightParameter2DecimalPlaces>0</TrafficLightParameter2DecimalPlaces>
+        </DataSourceField>
+      </Fields>
+      <GroupName>GDTS1</GroupName>
+      <KeyFieldName1>Adresse</KeyFieldName1>
+      <Name>dtsAdressen</Name>
+      <PackageId>GitTest1</PackageId>
+      <PartnerId>100065830</PartnerId>
+      <SortFieldName>Adresse</SortFieldName>
+      <Tables>KHKAdressen</Tables>
+      <Title>Adressen1</Title>
+      <WhereClause>KHKAdressen.Mandant = $[Mandant]</WhereClause>
+    </DataSource>
+  </DataSources>
+</Metadata>

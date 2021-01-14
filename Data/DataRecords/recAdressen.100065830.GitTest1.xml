@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?format revision="26" partner="100065830" package="GitTest1"?>
+<Metadata>
+  <DataRecords>
+    <DataRecord>
+      <DateChanged>14.01.2021 09:15:11,4294</DateChanged>
+      <DateCreated>14.01.2021 09:15:11,4294</DateCreated>
+      <Fields>
+        <DataRecordField>
+          <DataType Info="Boolean">1</DataType>
+          <DecimalPlaces>0</DecimalPlaces>
+          <IsMandatory>True</IsMandatory>
+          <Name>A1Besteuerung</Name>
+          <SqlQueryTable1>KHKAdressen.A1Besteuerung</SqlQueryTable1>
+          <Title>A1Besteuerung</Title>
+        </DataRecordField>
+        <DataRecordField>
+          <DataType Info="String">5</DataType>
+          <DecimalPlaces>0</DecimalPlaces>
+          <Name>Abladestelle</Name>
+          <SqlQueryTable1>KHKAdressen.Abladestelle</SqlQueryTable1>
+          <Title>Abladestelle</Title>
+        </DataRecordField>
+        <DataRecordField>
+          <DataType Info="Integer">2</DataType>
+          <DecimalPlaces>0</DecimalPlaces>
+          <IsMandatory>True</IsMandatory>
+          <Name>Adresse</Name>
+          <SqlQueryTable1>KHKAdressen.Adresse</SqlQueryTable1>
+          <Title>Adresse</Title>
+        </DataRecordField>
+        <DataRecordField>
+          <DataType Info="Boolean">1</DataType>
+          <DecimalPlaces>0</DecimalPlaces>
+          <IsMandatory>True</IsMandatory>
+          <Name>Aktiv</Name>
+          <SqlQueryTable1>KHKAdressen.Aktiv</SqlQueryTable1>
+          <Title>Aktiv</Title>
+        </DataRecordField>
+        <DataRecordField>
+          <DataType Info="String">5</DataType>
+          <DecimalPlaces>0</DecimalPlaces>
+          <Name>Anrede</Name>
+          <SqlQueryTable1>KHKAdressen.Anrede</SqlQueryTable1>
+          <Title>Anrede</Title>
+        </DataRecordField>
+        <DataRecordField>
+          <DataType Info="String">5</DataType>
+          <DecimalPlaces>0</DecimalPlaces>
+          <Name>Ansprache</Name>
+          <SqlQueryTable1>KHKAdressen.Ansprache</SqlQueryTable1>
+          <Title>Ansprache</Title>
+        </DataRecordField>
+        <DataRecordField>
+          <DataType Info="String">5</DataType>
+          <DecimalPlaces>0</DecimalPlaces>
+          <Name>Auswertungskennzeichen</Name>
+          <SqlQueryTable1>KHKAdressen.Auswertungskennzeichen</SqlQueryTable1>
+          <Title>Auswertungskennzeichen</Title>
+        </DataRecordField>
+        <DataRecordField>
+          <DataType Info="String">5</DataType>
+          <DecimalPlaces>0</DecimalPlaces>
+          <Name>EMail</Name>
+          <SqlQueryTable1>KHKAdressen.EMail</SqlQueryTable1>
+          <Title>EMail</Title>
+        </DataRecordField>
+        <DataRecordField>
+          <DataType Info="DateTime">6</DataType>
+          <DecimalPlaces>0</DecimalPlaces>
+          <Name>Erstkontakt</Name>
+          <SqlQueryTable1>KHKAdressen.Erstkontakt</SqlQueryTable1>
+          <Title>Erstkontakt</Title>
+        </DataRecordField>
+        <DataRecordField>
+          <DataType Info="String">5</DataType>
+          <DecimalPlaces>0</DecimalPlaces>
+          <Name>Gruppe</Name>
+          <SqlQueryTable1>KHKAdressen.Gruppe</SqlQueryTable1>
+          <Title>Gruppe</Title>
+        </DataRecordField>
+        <DataRecordField>
+          <DataType Info="String">5</DataType>
+          <DecimalPlaces>0</DecimalPlaces>
+          <Name>Homepage</Name>
+          <SqlQueryTable1>KHKAdressen.Homepage</SqlQueryTable1>
+          <Title>Homepage</Title>
+        </DataRecordField>
+        <DataRecordField>
+          <DataType Info="Integer">2</DataType>
+          <DecimalPlaces>0</DecimalPlaces>
+          <Name>Kategorie</Name>
+          <SqlQueryTable1>KHKAdressen.Kategorie</SqlQueryTable1>
+          <Title>Kategorie</Title>
+        </DataRecordField>
+        <DataRecordField>
+          <DataType Info="String">5</DataType>
+          <DecimalPlaces>0</DecimalPlaces>
+          <Name>LieferLand</Name>
+          <SqlQueryTable1>KHKAdressen.LieferLand</SqlQueryTable1>
+          <Title>LieferLand</Title>
+        </DataRecordField>
+        <DataRecordField>
+          <DataType Info="String">5</DataType>
+          <DecimalPlaces>0</DecimalPlaces>
+          <Name>LieferOrt</Name>
+          <SqlQueryTable1>KHKAdressen.LieferOrt</SqlQueryTable1>
+          <Title>LieferOrt</Title>
+        </DataRecordField>
+        <DataRecordField>
+          <DataType Info="String">5</DataType>
+          <DecimalPlaces>0</DecimalPlaces>
+          <Name>LieferPLZ</Name>
+          <SqlQueryTable1>KHKAdressen.LieferPLZ</SqlQueryTable1>
+          <Title>LieferPLZ</Title>
+        </DataRecordField>
+        <DataRecordField>
+          <DataType Info="String">5</DataType>
+          <DecimalPlaces>0</DecimalPlaces>
+          <Name>LieferStrasse</Name>
+          <SqlQueryTable1>KHKAdressen.LieferStrasse</SqlQueryTable1>
+          <Title>LieferStrasse</Title>
+        </DataRecordField>
+        <DataRecordField>
+          <DataType Info="String">5</DataType>
+          <DecimalPlaces>0</DecimalPlaces>
+          <Name>LieferZusatz</Name>
+          <SqlQueryTable1>KHKAdressen.LieferZusatz</SqlQueryTable1>
+          <Title>LieferZusatz</Title>
+        </DataRecordField>
+        <DataRecordField>
+          <DataType Info="String">5</DataType>
+          <DecimalPlaces>0</DecimalPlaces>
+          <IsMandatory>True</IsMandatory>
+          <Name>Matchcode</Name>
+          <SqlQueryTable1>KHKAdressen.Matchcode</SqlQueryTable1>
+          <Title>Matchcode</Title>
+        </DataRecordField>
+        <DataRecordField>
+          <DataType Info="String">5</DataType>
+          <DecimalPlaces>0</DecimalPlaces>
+          <Name>Memo</Name>
+          <SqlQueryTable1>KHKAdressen.Memo</SqlQueryTable1>
+          <Title>Memo</Title>
+        </DataRecordField>
+        <DataRecordField>
+          <DataType Info="String">5</DataType>
+          <DecimalPlaces>0</DecimalPlaces>
+          <Name>Mobilfunk</Name>
+          <SqlQueryTable1>KHKAdressen.Mobilfunk</SqlQueryTable1>
+          <Title>Mobilfunk</Title>
+        </DataRecordField>
+        <DataRecordField>
+          <DataType Info="String">5</DataType>
+          <DecimalPlaces>0</DecimalPlaces>
+          <Name>Name1</Name>
+          <SqlQueryTable1>KHKAdressen.Name1</SqlQueryTable1>
+          <Title>Name1</Title>
+        </DataRecordField>
+        <DataRecordField>
+          <DataType Info="String">5</DataType>
+          <DecimalPlaces>0</DecimalPlaces>
+          <Name>Name2</Name>
+          <SqlQueryTable1>KHKAdressen.Name2</SqlQueryTable1>
+          <Title>Name2</Title>
+        </DataRecordField>
+        <DataRecordField>
+          <DataType Info="String">5</DataType>
+          <DecimalPlaces>0</DecimalPlaces>
+          <Name>PostLand</Name>
+          <SqlQueryTable1>KHKAdressen.PostLand</SqlQueryTable1>
+          <Title>PostLand</Title>
+        </DataRecordField>
+        <DataRecordField>
+          <DataType Info="String">5</DataType>
+          <DecimalPlaces>0</DecimalPlaces>
+          <Name>PostOrt</Name>
+          <SqlQueryTable1>KHKAdressen.PostOrt</SqlQueryTable1>
+          <Title>PostOrt</Title>
+        </DataRecordField>
+        <DataRecordField>
+          <DataType Info="String">5</DataType>
+          <DecimalPlaces>0</DecimalPlaces>
+          <Name>PostPLZ</Name>
+          <SqlQueryTable1>KHKAdressen.PostPLZ</SqlQueryTable1>
+          <Title>PostPLZ</Title>
+        </DataRecordField>
+        <DataRecordField>
+          <DataType Info="String">5</DataType>
+          <DecimalPlaces>0</DecimalPlaces>
+          <Name>PostStrasse</Name>
+          <SqlQueryTable1>KHKAdressen.PostStrasse</SqlQueryTable1>
+          <Title>PostStrasse</Title>
+        </DataRecordField>
+        <DataRecordField>
+          <DataType Info="String">5</DataType>
+          <DecimalPlaces>0</DecimalPlaces>
+          <Name>PostZusatz</Name>
+          <SqlQueryTable1>KHKAdressen.PostZusatz</SqlQueryTable1>
+          <Title>PostZusatz</Title>
+        </DataRecordField>
+        <DataRecordField>
+          <DataType Info="String">5</DataType>
+          <DecimalPlaces>0</DecimalPlaces>
+          <Name>Referenz</Name>
+          <SqlQueryTable1>KHKAdressen.Referenz</SqlQueryTable1>
+          <Title>Referenz</Title>
+        </DataRecordField>
+        <DataRecordField>
+          <DataType Info="Integer">2</DataType>
+          <DecimalPlaces>0</DecimalPlaces>
+          <Name>Sonderfunktion</Name>
+          <SqlQueryTable1>KHKAdressen.Sonderfunktion</SqlQueryTable1>
+          <Title>Sonderfunktion</Title>
+        </DataRecordField>
+        <DataRecordField>
+          <DataType Info="String">5</DataType>
+          <DecimalPlaces>0</DecimalPlaces>
+          <Name>Sprache</Name>
+          <SqlQueryTable1>KHKAdressen.Sprache</SqlQueryTable1>
+          <Title>Sprache</Title>
+        </DataRecordField>
+        <DataRecordField>
+          <DataType Info="String">5</DataType>
+          <DecimalPlaces>0</DecimalPlaces>
+          <Name>Telefax</Name>
+          <SqlQueryTable1>KHKAdressen.Telefax</SqlQueryTable1>
+          <Title>Telefax</Title>
+        </DataRecordField>
+        <DataRecordField>
+          <DataType Info="String">5</DataType>
+          <DecimalPlaces>0</DecimalPlaces>
+          <Name>Telefon</Name>
+          <SqlQueryTable1>KHKAdressen.Telefon</SqlQueryTable1>
+          <Title>Telefon</Title>
+        </DataRecordField>
+        <DataRecordField>
+          <DataType Info="String">5</DataType>
+          <DecimalPlaces>0</DecimalPlaces>
+          <Name>Werkschluessel</Name>
+          <SqlQueryTable1>KHKAdressen.Werkschluessel</SqlQueryTable1>
+          <Title>Werkschluessel</Title>
+        </DataRecordField>
+      </Fields>
+      <GroupName>GDTR1</GroupName>
+      <MandantFieldTable1>Mandant</MandantFieldTable1>
+      <Name>recAdressen</Name>
+      <PackageId>GitTest1</PackageId>
+      <PartnerId>100065830</PartnerId>
+      <PrimaryKeyField1>Adresse</PrimaryKeyField1>
+      <RowVersionFieldTable1>KHKAdressen.Timestamp</RowVersionFieldTable1>
+      <Table1>KHKAdressen</Table1>
+      <Title>Adressen</Title>
+    </DataRecord>
+  </DataRecords>
+</Metadata>
