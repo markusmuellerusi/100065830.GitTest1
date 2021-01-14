@@ -3,7 +3,7 @@
 <Metadata>
   <DataSources>
     <DataSource>
-      <DateChanged>14.01.2021 13:43:24,1154</DateChanged>
+      <DateChanged>14.01.2021 13:48:37,8725</DateChanged>
       <DateCreated>14.01.2021 09:15:11,5716</DateCreated>
       <Fields>
         <DataSourceField>
@@ -761,7 +761,7 @@
       <PartnerId>100065830</PartnerId>
       <SortFieldName>Adresse</SortFieldName>
       <Tables>KHKAdressen</Tables>
-      <Title>Adressen23</Title>
+      <Title>Adressen234</Title>
       <WhereClause>KHKAdressen.Mandant = $[Mandant]</WhereClause>
     </DataSource>
   </DataSources>
